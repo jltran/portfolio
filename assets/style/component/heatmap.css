@@ -1,0 +1,40 @@
+#heatmap{
+  height: 100vh;
+  background-color:#6A6269;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.heatmap--svg{
+}
+
+.heatmap--input{
+  flex-basis: 40%;
+  color: rgb(205,205,203);
+}
+#searchBar{
+  color: rgb(16, 14, 19);
+  margin-bottom: 0px;
+}
+.heatmap--form-button{
+  margin-left: 10px;
+  background-color: #ADA7AC;
+  color: rgb(205,205,203) !important;
+  margin-bottom: 0px;
+}
+.heatmap--disclaimer{
+  font-size: 10px;
+  padding-left: 3px;
+}
+
+.city--button{
+  color: rgb(205,205,203) !important;
+  display: block;
+}
+
+.heatmap--next-button{
+  margin-top: 20px;
+  background-color: #ADA7AC;
+  color: rgb(205,205,203) !important;
+}

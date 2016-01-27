@@ -1,0 +1,33 @@
+#housing{
+  height: 100vh;
+  background-color:rgb(205,205,203);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+.housing--graph{
+  flex: 1;
+}
+.housing--graph p{
+  margin-bottom: 0;
+}
+.tick text {
+  font-weight: bold;
+}
+.tick line{
+  opacity: 0.15;
+}
+.housing--name{
+  font-color: rgb(16, 14, 19);
+}
+.housing--title--container{
+  position: absolute;
+  right: 2.5%;
+}
+.housing--button{
+  position: absolute;
+  right: 0;
+}

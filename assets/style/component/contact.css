@@ -1,0 +1,9 @@
+#contact{
+  display:flex;
+  height: 100vh;
+  background-color: #6A6269;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: rgb(205,205,203) !important;
+}

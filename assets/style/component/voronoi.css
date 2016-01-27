@@ -1,0 +1,51 @@
+#voronoi{
+  display: relative;
+  height: 100vh;
+  background-color:#7D737B;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+.voronoi--container path {
+  stroke: #fff;
+}
+
+#voronoi circle {
+  fill: #000;
+  pointer-events: none;
+}
+
+.voronoi--button--next{
+  position: absolute;
+  right: 0%;
+}
+
+.voronoi--button--next a{
+  background-color: #FFDC00 !important;
+  opacity: 0.95;
+  color: #rgb(16, 14, 19);
+}
+
+.delaunay--path{
+  fill: none;
+  stroke: #FFDC00;
+  stroke-opacity: 0.3;
+}
+
+.delaunay--path--false{
+  fill: none;
+  stroke: none;
+}
+
+.q0-color { fill: #b2182b; }
+.q1-color { fill: #d6604d; }
+.q2-color { fill: #f4a582; }
+.q3-color { fill: #fddbc7; }
+.q4-color { fill: #f7f7f7; }
+.q5-color { fill: #d1e5f0; }
+.q6-color { fill: #92c5de; }
+.q7-color { fill: #4393c3; }
+.q8-color { fill: #2166ac; }

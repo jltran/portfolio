@@ -1,0 +1,35 @@
+#growth{
+  height: 100vh;
+  background-color:#ADA7AC;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 11px;
+}
+.line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2;
+  stroke-opacity: 0.6;
+}
+.axis path,
+.axis line{
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.growth-title--container{
+  position: absolute;
+  top: 25%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  text-align: right;
+}
+.growth-title{
+  opacity: .75;
+  font-color: rgb(16, 14, 19);
+}
+.growth--button{
+  background-color: #DDDDDD !important;
+  opacity: 0.95;
+  color: #rgb(16, 14, 19);
+}

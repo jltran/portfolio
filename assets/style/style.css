@@ -1,0 +1,10 @@
+body{
+  background-color: #DBDADB;
+}
+
+.logo{
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  z-index: 999;
+}
